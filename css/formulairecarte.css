@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: url(../image/Banniere_oiseau.jpg) center/cover;
+    height: 15rem;
+}
+
+header img {
+    height: 8rem;
+    width: 8rem;
+    margin: 1rem 0 0 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    width: 55%;
+    background-color: #FFFFFF;
+    margin: 2rem 2rem 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.titrearticle {
+    text-align: center;
+    height: 3rem;
+    width: 60%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carte {
+    background: #C9E7B1;
+    min-height: 50rem;
+    width: 70%;
+}
+
+.text {
+    background: #C9E7B1;
+    min-height: 50rem;
+    width: 20%;
+}
+
+.image {
+    height: 40rem;
+    width: 95%;
+    background-color: #ffffff8d
+}
+
