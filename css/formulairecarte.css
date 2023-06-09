@@ -8,7 +8,7 @@ header {
     height: 15rem;
 }
 
-header img {
+.logonav {
     height: 8rem;
     width: 8rem;
     margin: 1rem 0 0 3rem;
@@ -49,6 +49,18 @@ p {
     color: black;
 }
 
+.burger {
+    display: none;
+    background: #C9E7B1;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+}
+
 .titrearticle {
     text-align: center;
     height: 3rem;
@@ -63,12 +75,31 @@ p {
 .container {
     display: flex;
     justify-content: space-around;
+    margin: 1rem 0;
 }
 
 .carte {
     background: #C9E7B1;
     min-height: 50rem;
     width: 70%;
+}
+
+.carteinserré {
+    display: block;
+    height: 65rem;
+    width: 95%;
+    background-color: #ffffff8d;
+    margin: 2PX auto;
+    text-align: center;
+}
+
+.description {
+    display: block;
+    height: 3rem;
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .text {
@@ -78,8 +109,84 @@ p {
 }
 
 .image {
-    height: 40rem;
+    display: block;
+    height: 20rem;
     width: 95%;
-    background-color: #ffffff8d
+    background-color: #ffffff8d;
+    margin: 2PX auto;
+    text-align: center;
+}
+
+.texte {
+    display: block;
+    height: 50rem;
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    nav {
+        display: none;
+    } /* Ajoutez vos styles spécifiques pour les tablettes ici */
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 610px;
+    }
+
+    .titrearticle {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        top: 44px;
+        left: 249px
+    }
+
+    .titrearticle {
+        width: 95%;
+    }
+    
+
+    .container {
+        display: block;
+    }
+
+    .carte {
+        width: 95%;
+    }
+
+    .text {
+        width: 95%;
+        margin-top: 1rem;
+    }
+    
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    };
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+
 }
 

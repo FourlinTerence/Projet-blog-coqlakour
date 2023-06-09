@@ -111,8 +111,8 @@ section {
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     nav {
         display: none;
-    } /* Ajoutez vos styles spécifiques pour les tablettes ici */
-
+    } 
+    
 
     .burger {
         display: block;
@@ -123,7 +123,7 @@ section {
     section {
         display: block;
     }
-
+    
     .box {
         width: 90%;
         margin: 1rem auto;
@@ -134,7 +134,8 @@ section {
 @media screen and (max-width: 767px) {
     nav {
         display: none;
-    } /* Ajoutez vos styles spécifiques pour les tablettes ici */
+    } 
+
     .burger {
         display: block;
         top: 44px;
@@ -169,7 +170,7 @@ section {
     h2 {
         font-size: 20px;
     };
-
+    
     h3 {
         font-size: 20px;
     }
@@ -177,5 +178,4 @@ section {
     p {
         font-size: 16px;
     }
-
 }
