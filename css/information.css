@@ -179,3 +179,139 @@ section {
         font-size: 16px;
     }
 }
+/*c'est moi john qui a travailler sur se css*/
+#article{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0rem;
+    align-items::content;
+    
+
+}
+
+#article p{
+    display: table-cell;;
+    width: 50%; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+#lienarticle{
+    width: 25%;
+    margin: 5rem;
+    background-color: #C9E7B1;;
+    padding-block: 5%;
+    margin-top: 0px;
+
+    
+}
+#lienarticle img{
+    padding-inline: 12%;
+}
+#lienarticle p{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+#coqlakour-removebg-preview.png {
+    marge-gauche : center ;
+    marge-droite : center 
+}
+#premier{
+    width: 65%;
+    justify-content: center;
+    background-color: #C9E7B1;
+}
+#premier img {
+    width: 99%;
+    margin: 5px;
+}
+deuxieme{
+    width: 30%;
+    background-color: rgb(131, 236, 82);
+    position: absolute;  
+}
+#deuxieme a{
+    text-align: center;
+    display:block;
+
+}
+
+
+#couleur2 {
+    background-color: gainsboro;
+}
+/* j'ai continu*/
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.formulaire {
+    background: #C9E7B1;
+    width: 40%;
+    min-height: 30rem;
+}
+
+.partie1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.champtext {
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.donnee {
+    width: 50%;
+    align-items: center;
+}
+
+.champ {
+    width: 40%;
+}
+
+.button {
+    display: block;
+   text-align: end;
+   margin-bottom: 1rem;
+}
+
+.container img {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    nav {
+        display: none;
+    } 
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 610px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    } 
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 249px
+    }
+
+    .container {
+        display: block;
+    }
