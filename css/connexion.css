@@ -84,6 +84,7 @@ p {
     background: #C9E7B1;
     width: 40%;
     min-height: 30rem;
+    margin-left: 6rem;
 }
 
 .partie1 {
@@ -129,6 +130,9 @@ p {
         left: 610px;
     }
     
+    .formulaire {
+        margin-left: 2rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -150,6 +154,10 @@ p {
         width: 95%;
         margin: 1rem auto;
         padding-top: 1rem;
+    }
+
+    .champ p {
+        margin-top: 2rem;
     }
     
     h1 {
