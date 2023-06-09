@@ -113,13 +113,13 @@ section {
         display: none;
     } 
     
-
+    
     .burger {
         display: block;
         top: 44px;
         left: 610px;
     }
-
+    
     section {
         display: block;
     }
@@ -135,7 +135,7 @@ section {
     nav {
         display: none;
     } 
-
+    
     .burger {
         display: block;
         top: 44px;
@@ -145,7 +145,7 @@ section {
     .logocoqlakour {
         margin: auto;
     }
-
+    
     section {
         display: block;
     }
