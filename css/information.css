@@ -47,6 +47,7 @@ h3 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: black;
 }
 
 section {
@@ -135,24 +136,24 @@ section {
     section {
         display: block;
     }
-
+    
     .box {
         width: 90%;
         margin: 1rem auto;
     }
-
+    
     .article {
         display: block;
     }
-
+    
     .logocoqlakour {
         height: 20rem;
     }
-
+    
     h1 {
         font-size: 40px;
     }
-
+    
     h2 {
         font-size: 20px;
     };
@@ -160,7 +161,7 @@ section {
     h3 {
         font-size: 20px;
     }
-
+    
     p {
         font-size: 16px;
     }
