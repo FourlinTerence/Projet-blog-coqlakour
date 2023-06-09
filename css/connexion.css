@@ -8,7 +8,7 @@ header {
     height: 15rem;
 }
 
-header img {
+.logonav {
     height: 8rem;
     width: 8rem;
     margin: 1rem 0 0 3rem;
@@ -57,6 +57,18 @@ p {
     color: black;
 }
 
+.burger {
+    display: none;
+    background: #C9E7B1;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -82,14 +94,77 @@ p {
 
 .champtext {
     margin-bottom: 1rem;
-    height: 1.5rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.donnee {
+    width: 50%;
+    align-items: center;
 }
 
 .champ {
-    width: 50%;
+    width: 40%;
 }
 
 .button {
     display: block;
    text-align: end;
+   margin-bottom: 1rem;
+}
+
+.container img {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    nav {
+        display: none;
+    } 
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 610px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    } 
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 249px
+    }
+
+    .container {
+        display: block;
+    }
+    
+    .formulaire {
+        width: 95%;
+        margin: 1rem auto;
+        padding-top: 1rem;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    };
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
 }
