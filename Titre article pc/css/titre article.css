@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ header {
     height: 15rem;
 }
 
-header img {
+.logonav {
     height: 8rem;
     width: 8rem;
     margin: 1rem 0 0 3rem;
@@ -31,7 +31,10 @@ nav {
 nav a {
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: black;
 }
+
 main {
     
     list-style: none;
@@ -40,6 +43,7 @@ main texte
 {
     display: flex;
 }
+
 h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 72px;
@@ -59,12 +63,29 @@ p {
     color: black;
 }
 
+.burger {
+    display: none;
+    background: #C9E7B1;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+}
+
+.bold {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
 #article{
 
     display: flex;
     justify-content: space-between;
     margin-right: 0rem;
-    align-items::content;
+    align-items:content;
     
 
 }
@@ -86,6 +107,7 @@ p {
 }
 #lienarticle img{
     padding-inline: 12%;
+    max-width: 100%;
 }
 #lienarticle p{
     display: flex;
@@ -118,6 +140,66 @@ deuxieme{
 }
 
 
-#couleur2 {
-    background-color: gainsboro;
+.commentaire {
+    width: 95%;
+    margin: 1rem auto 0 auto;
+    background: #D9D9D9;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    nav {
+        display: none;
+    } 
+    
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 610px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    } 
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 249px
+    }
+    
+    #article {
+    display: block;
+     }
+    
+    #premier {
+        width: 95%;
+        margin: 1rem auto
+    }
+
+    #lienarticle {
+        width: 95%;
+        margin: 1rem auto
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    };
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
 }
