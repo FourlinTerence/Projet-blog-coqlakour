@@ -82,6 +82,10 @@ p {
     font-weight: bold;
 }
 
+main img {
+    max-width: 100%;
+}
+
 /* MENU BURGER */
 
 
@@ -157,21 +161,21 @@ p {
         top: 44px;
         left: 249px
     }
-
+    
     main img {
         max-width: 100%;
     }
-
+    
     .container {
         display: block;
     }
-
+    
     .carte {
         min-height: 10rem;
         width: 95%;
         margin: 1rem auto;
     }
-
+    
     .cartedescription {
         min-height: 10%;
         width: 95%;
