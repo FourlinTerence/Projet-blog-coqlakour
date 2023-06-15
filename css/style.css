@@ -242,6 +242,74 @@ p {
     margin: 0 auto 1rem auto;
 }
 
+/* CSS page formulaire carte */
+
+.cartetitrearticle {
+    text-align: center;
+    height: 3rem;
+    width: 60%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.cartecontainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.cartecarte {
+    background: #C9E7B1;
+    min-height: 50rem;
+    width: 70%;
+}
+
+.carteinserré {
+    display: block;
+    height: 65rem;
+    width: 95%;
+    background-color: #ffffff8d;
+    margin: 2PX auto;
+    text-align: center;
+}
+
+.description {
+    display: block;
+    height: 3rem;
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cartetext {
+    background: #C9E7B1;
+    min-height: 50rem;
+    width: 20%;
+}
+
+.carteimage {
+    display: block;
+    height: 20rem;
+    width: 95%;
+    background-color: #ffffff8d;
+    margin: 2PX auto;
+    text-align: center;
+}
+
+.cartetexte {
+    display: block;
+    height: 50rem;
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 /* MENU BURGER */
 
 
@@ -313,6 +381,10 @@ p {
 
     .formarticlecontainer {
         width: 90%;
+    }
+
+    .cartetitrearticle {
+        width: 80%;
     }
 }
 
@@ -402,6 +474,32 @@ p {
     .logocoqlakour {
         margin: auto;
     }
+
+    .titrearticle {
+        width: 90%;
+    }
+
+    /* CSS formulaire carte */
+    
+    .cartetitrearticle {
+        width: 95%;
+    }
+    
+    
+    .cartecontainer {
+        display: block;
+    }
+    
+    .cartecarte {
+        width: 95%;
+        margin: 1px auto;
+    }
+    
+    .cartetext {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    
     
     h1 {
         font-size: 40px;
