@@ -309,6 +309,50 @@ p {
     text-align: center;
 }
 
+/* CSS page information*/
+
+.pageinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infobox {
+    min-height: 20rem;
+    width: 40%;
+    background-color: #C9E7B1;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.infobox a {
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+    cursor: pointer;
+    display: block;
+}
+
+.infologocoqlakour {
+    text-align: center;
+    height: 35rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+.infoarticle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infos {
+    padding-left: 10px;
+    margin-bottom: 2rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
 
 /* MENU BURGER */
 
@@ -499,7 +543,26 @@ p {
         width: 95%;
         margin: 1rem auto;
     }
+
+    /* Information */
+
+    .pageinfo {
+        display: block;
+    }
     
+    .infobox {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    
+    .infoarticle {
+        display: block;
+    }
+    
+    .infologocoqlakour {
+        height: 20rem;
+        margin: auto;
+    }
     
     h1 {
         font-size: 40px;

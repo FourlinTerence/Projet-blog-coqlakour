@@ -50,16 +50,12 @@ p {
     color: black;
 }
 
-section {
+.pageinfo {
     display: flex;
     justify-content: space-around;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-.box {
+.infobox {
     min-height: 20rem;
     width: 40%;
     background-color: #C9E7B1;
@@ -67,19 +63,21 @@ section {
     padding: 0 2rem;
 }
 
-.box a {
+.infobox a {
     font-family: 'Montserrat', sans-serif;
     color: blue;
     cursor: pointer;
     display: block;
 }
 
-.logocoqlakour {
+.infologocoqlakour {
     text-align: center;
     height: 35rem;
+    display: block;
+    margin: 2rem auto;
 }
 
-.article {
+.infoarticle {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,11 +89,6 @@ section {
 }
 
 
-
-.logocoqlakour {
-    display: block;
-    margin: 2rem auto;
-}
 
 /* MENU BURGER */
 
@@ -179,25 +172,22 @@ section {
         left: 249px
     }
     
-    .logocoqlakour {
-        margin: auto;
-    }
-    
-    section {
+    .pageinfo {
         display: block;
     }
     
-    .box {
+    .infobox {
         width: 90%;
         margin: 1rem auto;
     }
     
-    .article {
+    .infoarticle {
         display: block;
     }
     
-    .logocoqlakour {
+    .infologocoqlakour {
         height: 20rem;
+        margin: auto;
     }
     
     h1 {
