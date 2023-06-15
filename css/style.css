@@ -37,6 +37,12 @@ h1 {
     margin: 3rem 0;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -155,7 +161,7 @@ p {
 
 .champ {
     width: 40%;
-    justify-content: center;
+    text-align: center;
 }
 
 .button {
@@ -167,6 +173,73 @@ p {
 .flexcontainer img {
     display: block;
     margin: auto;
+}
+
+/*CSS page contact */
+
+.contactcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactchamp {
+    width: 50%;
+}
+
+.contactcontainer2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centrer {
+    display: block;
+    margin: 2px auto;
+}
+
+/* CSS page formulairearticle */
+
+.titrearticle {
+    text-align: center;
+    height: 3rem;
+    width: 60%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.formarticlecontainer {
+    background: #C9E7B1;
+    min-height: 47rem;
+    width: 80%;
+    margin: 3rem auto;
+    padding-top: 1rem;
+
+}
+
+.image {
+    display: block;
+    height: 20rem;
+    width: 95%;
+    margin: 2rem auto;
+    background-color: #ffffff8d;
+    text-align: center;
+}
+
+.texts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    display: block;
+    height: 30rem;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto 1rem auto;
 }
 
 /* MENU BURGER */
@@ -233,6 +306,14 @@ p {
     .formulaire {
         margin-left: 2rem;
     }
+
+    .contactbox {
+        width: 90%;
+    }
+
+    .formarticlecontainer {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -293,7 +374,34 @@ p {
         margin-top: 2rem;
     }
 
+    /* Contact */
 
+    .contactbox {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    
+    .contactbox img {
+        max-width: 100%;
+    }
+
+    /* Formulaire article*/
+
+    .formarticlecontainer {
+        width: 95%;
+    }
+    
+    .texts {
+        display: block;
+    }
+    
+    .text {
+        width: 90%;
+    }
+
+    .logocoqlakour {
+        margin: auto;
+    }
     
     h1 {
         font-size: 40px;
