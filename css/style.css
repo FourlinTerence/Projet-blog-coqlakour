@@ -458,6 +458,12 @@ deuxieme{
     background-color: #C9E7B1;
   }
 
+footer {
+    background-color: #C9E7B1;
+    padding: 20px;
+    text-align: center;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     nav {
