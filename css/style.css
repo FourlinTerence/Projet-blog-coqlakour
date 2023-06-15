@@ -49,6 +49,10 @@ p {
     color: black;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* CSS de la page d acceuil */
 
 .lesboxacceuil {
@@ -116,8 +120,53 @@ p {
     padding: 1rem;
 }
 
-.bold {
-    font-weight: bold;
+/* CSS page connexion*/
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.formulaire {
+    background: #C9E7B1;
+    width: 40%;
+    min-height: 30rem;
+    margin-left: 6rem;
+}
+
+.partie1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.champtext {
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.donnee {
+    width: 50%;
+    align-items: center;
+}
+
+.champ {
+    width: 40%;
+    justify-content: center;
+}
+
+.button {
+    display: block;
+   text-align: end;
+   margin-bottom: 1rem;
+}
+
+.flexcontainer img {
+    display: block;
+    margin: auto;
 }
 
 /* MENU BURGER */
@@ -180,6 +229,10 @@ p {
         top: 44px;
         left: 610px;
     }
+
+    .formulaire {
+        margin-left: 2rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -224,7 +277,23 @@ p {
         margin: 1rem auto;
     }
 
+    /* Page connexion */
     
+    .flexcontainer {
+        display: block;
+    }
+    
+    .formulaire {
+        width: 95%;
+        margin: 1rem auto;
+        padding-top: 1rem;
+    }
+    
+    .champ p {
+        margin-top: 2rem;
+    }
+
+
     
     h1 {
         font-size: 40px;

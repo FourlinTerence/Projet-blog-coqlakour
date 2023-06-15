@@ -61,7 +61,7 @@ p {
     font-weight: bold;
 }
 
-.container {
+.flexcontainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -102,7 +102,7 @@ p {
    margin-bottom: 1rem;
 }
 
-.container img {
+.flexcontainer img {
     display: block;
     margin: auto;
 }
@@ -181,8 +181,8 @@ p {
         top: 44px;
         left: 249px
     }
-
-    .container {
+    
+    .flexcontainer {
         display: block;
     }
     
@@ -191,7 +191,7 @@ p {
         margin: 1rem auto;
         padding-top: 1rem;
     }
-
+    
     .champ p {
         margin-top: 2rem;
     }
