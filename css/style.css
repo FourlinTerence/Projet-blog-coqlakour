@@ -353,6 +353,65 @@ p {
     font-style: italic;
 }
 
+/* CSS page article*/
+
+#article{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0rem;
+    align-items:content;
+    
+
+}
+
+#article p{
+    display: table-cell;;
+    width: 50%; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+#lienarticle{
+    width: 25%;
+    margin: 5rem;
+    background-color: #C9E7B1;;
+    padding-block: 5%;
+    margin-top: 0px;
+
+    
+}
+#lienarticle img{
+    max-width: 100%;
+}
+
+#lienarticle p{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+#coqlakour-removebg-preview.png {
+    marge-gauche : center ;
+    marge-droite : center 
+}
+#premier{
+    width: 65%;
+    justify-content: center;
+    background-color: #C9E7B1;
+}
+#premier img {
+    width: 99%;
+    margin: 5px;
+}
+deuxieme{
+    width: 30%;
+    background-color: rgb(131, 236, 82);
+    position: absolute;  
+}
+#deuxieme a{
+    text-align: center;
+    display:block;
+}
 
 /* MENU BURGER */
 
@@ -563,6 +622,22 @@ p {
         height: 20rem;
         margin: auto;
     }
+    
+    /* CSS page article*/
+    
+    #article {
+        display: block;
+         }
+        
+        #premier {
+            width: 95%;
+            margin: 1rem auto
+        }
+    
+        #lienarticle {
+            width: 95%;
+            margin: 1rem auto
+        }
     
     h1 {
         font-size: 40px;
